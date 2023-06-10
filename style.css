@@ -1,0 +1,29 @@
+.header{
+    text-align: center;
+    color: #808080;
+    font-size: 0.9rem;
+    font-family: 'Courier New', Courier, monospace;
+  }        
+    .prompt_items {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin: auto;
+        gap: 20px;
+
+    }
+    .prompt_items .prompt{
+        font-size: 1.2rem;
+        padding: .5em;
+    }
+    .mike{
+        height: 30px;
+        cursor: pointer;
+          
+    }
+
+    @media (max-width : 680px){
+        .prompt_items{
+            width: 100%;
+        }
+    }
